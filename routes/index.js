@@ -51,11 +51,6 @@ router.get('/products/:id?', (req, res) => {
     const productId = req.params.id;
     const product =  productId ? products.filter(item => item.id == productId) : products;
     
-    // products.reduce((all, p) => {
-    //     console.log(productId, p.id === productId ? p : all);
-    //     return p.id === productId ? p : all
-    // });
-
     res.status(200).json(product)
 })
 
