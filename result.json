@@ -1,0 +1,75 @@
+Order: {
+    "id": "8VD07403YB055751N",
+    "intent": "CAPTURE",
+    "purchase_units": [
+        {
+            "reference_id": "default",
+            "amount": {
+                "currency_code": "BRL",
+                "value": "10.00",
+                "breakdown": {
+                    "item_total": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    }
+                }
+            },
+            "payee": {
+                "email_address": "sb-cutrq57225@business.example.com",
+                "merchant_id": "MA952Y9HT7NMJ"
+            },
+            "items": [
+                {
+                    "name": "Teclado",
+                    "unit_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "quantity": "1",
+                    "category": "DIGITAL_GOODS"
+                }
+            ],
+            "shipping": {
+                "address": {
+                    "address_line_1": "Ataliba leonel",
+                    "address_line_2": "452",
+                    "admin_area_2": "São Vicente",
+                    "postal_code": "11370-450",
+                    "country_code": "BR"
+                }
+            }
+        }
+    ],
+    "payer": {
+        "address": {
+            "address_line_1": "Ataliba leonel",
+            "address_line_2": "452",
+            "admin_area_2": "São Vicente",
+            "country_code": "BR"
+        }
+    },
+    "create_time": "2019-08-07T15:25:49Z",
+    "links": [
+        {
+            "href": "https://api.sandbox.paypal.com/v2/checkout/orders/8VD07403YB055751N",
+            "rel": "self",
+            "method": "GET"
+        },
+        {
+            "href": "https://www.sandbox.paypal.com/checkoutnow?token=8VD07403YB055751N",
+            "rel": "approve",
+            "method": "GET"
+        },
+        {
+            "href": "https://api.sandbox.paypal.com/v2/checkout/orders/8VD07403YB055751N",
+            "rel": "update",
+            "method": "PATCH"
+        },
+        {
+            "href": "https://api.sandbox.paypal.com/v2/checkout/orders/8VD07403YB055751N/capture",
+            "rel": "capture",
+            "method": "POST"
+        }
+    ],
+    "status": "CREATED"
+}

@@ -1,0 +1,26 @@
+{
+    "products": [
+        {
+            "id":1,
+            "titulo": "Teclado",
+            "descricao": "Teclado completo",
+            "preco": 10,
+            "img":  "/images/produto1.jpg"
+        },
+        {
+            "id":2,
+            "titulo": "Teclado 2",
+            "descricao": "Teclado completo",
+            "preco": 20,
+            "img":  "/images/produto1.jpg"
+        },
+        {
+            "id":3,
+            "titulo": "Teclado 3",
+            "descricao": "Teclado completo",
+            "preco": 30,
+            "img":  "/images/produto1.jpg"
+        }
+
+    ]
+}
